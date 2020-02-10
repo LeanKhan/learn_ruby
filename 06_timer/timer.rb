@@ -1,15 +1,9 @@
 class Timer
 
+  attr_accessor :seconds
+
     def initialize
       @seconds = 0
-    end
-
-    def seconds
-      @seconds
-    end
-
-    def seconds= seconds
-      @seconds = seconds
     end
 
     def time_string
